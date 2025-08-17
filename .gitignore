@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.env
+
+# Logs y salidas
+*.log
+*.csv
+bot_data/
+salida_nodos.txt
+nodos.txt
+relay_nodes.csv
+
+# IDE
+.vscode/
+.idea/
+*.swp
