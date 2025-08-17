@@ -1,4 +1,7 @@
-meshtastic
-pubsub
-python-telegram-bot>=20.0
-protobuf>=4.0.0
+python-telegram-bot>=20.8,<22
+meshtastic>=2.4.0
+protobuf>=4.25.0
+googleapis-common-protos>=1.63.0
+paho-mqtt>=2.1.0
+pyserial>=3.5
+pypubsub==4.0.3
