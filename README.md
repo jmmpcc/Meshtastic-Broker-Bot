@@ -230,7 +230,7 @@ ________________________________________
 4) Variables de entorno
 Puedes usar un .env (o export/PowerShell) para configurar:
 # Comunes
-MESHTASTIC_HOST=192.168.1.201
+MESHTASTIC_HOST=xxx.xxx.xxx.xxx (IP DEL NODO MESHTASTIC)
 
 # CLI Meshtastic (fallback en el bot y usado por el Relay)
 MESHTASTIC_EXE=meshtastic           # o ruta completa
@@ -241,7 +241,7 @@ MESHTASTIC_BIND=127.0.0.1
 MESHTASTIC_BRKPORT=8765
 
 # Bot Telegram
-TELEGRAM_TOKEN=xxxxx:yyyyyy-zzzzz
+TELEGRAM_TOKEN=xxxxx:yyyyyy-zzzzz (ID DEL BOT QUE CREAMOS PARA INTERACTUAR CON NUESTRO NODO MESHTASTIC)
 # Lista de IDs admin separada por coma o punto y coma
 ADMIN_IDS=123456789;987654321
 
