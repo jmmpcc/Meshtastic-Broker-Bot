@@ -1,20 +1,33 @@
 # Python
 __pycache__/
-*.pyc
+*.py[cod]
 *.pyo
 *.pyd
+*.so
+*.egg
 *.egg-info/
-.env
+dist/
+build/
 
-# Logs y salidas
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# Logs y datos temporales
 *.log
-*.csv
+*.tmp
+*.bak
+*.swp
+
+# Archivos específicos del proyecto
 bot_data/
 salida_nodos.txt
-nodos.txt
 relay_nodes.csv
+relay_debug.log
+nodos.txt
+stats.json
 
-# IDE
-.vscode/
-.idea/
-*.swp
+# Configuración local
+*.env
+.env.*
