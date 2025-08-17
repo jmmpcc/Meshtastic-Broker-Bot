@@ -111,7 +111,7 @@ ________________________________________
 
 Ejemplo `.env`:
 ```bash
-MESHTASTIC_HOST=192.168.1.201
+MESHTASTIC_HOST=xxx.xxx.xxx.xxx (IP DEL NODO MESHTASTIC)
 MESHTASTIC_EXE=meshtastic
 MESHTASTIC_BIND=127.0.0.1
 MESHTASTIC_BRKPORT=8765
