@@ -8,7 +8,7 @@
 | `Meshtastic_Broker_v2.1.py` | Broker TCP local (JSONL) con heartbeats/estadísticas y extracción robusta de canal. |
 | `broker_probe_v2.py` | Cliente de consola para escuchar el broker y resumir paquetes recibidos. |
 
----
+--
 
 ## 🎯 1) Objetivo
 Ecosistema integrado para operar una red **Meshtastic** desde **Telegram** y/o **consola**:
