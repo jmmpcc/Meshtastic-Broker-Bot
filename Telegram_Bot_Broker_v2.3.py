@@ -600,6 +600,9 @@ async def ver_nodos_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> N
     except ValueError:
         n = 20
     # 2) obtener lista detallada (incluye hops)
+    # 2) FORZAR sincronización relay→CLI para obtener los datos más recientes
+    #    Esto actualiza NODES_FILE con los últimos nodos
+    sync_nodes_and_save(n_max=n)
      # Usamos el fetch preferente (relay o CLI) y parseamos con hops
     raw = load_nodes_prefer_relay_con_hops(n_max=n)
     
