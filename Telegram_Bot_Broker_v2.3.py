@@ -69,9 +69,9 @@ LOG_FILE           = DATA_DIR / "bot.log"
 STATS_FILE         = DATA_DIR / "stats.json"
 NODES_FILE         = DATA_DIR / "nodos.txt"
 
-TOKEN              = os.getenv("TELEGRAM_TOKEN", "7898191886:AAG4XOGcXOJ_Y-L4NdtcY-a84RVA4pEvIwk").strip()
-ADMIN_IDS          = {int(x) for x in os.getenv("126867583", "").replace(";", ",").split(",") if x.strip().isdigit()}
-MESHTASTIC_HOST    = os.getenv("MESHTASTIC_HOST", "192.168.1.201").strip()
+TOKEN              = os.getenv("TELEGRAM_TOKEN", "IP BOT TELEGRAM").strip()
+ADMIN_IDS          = {int(x) for x in os.getenv("ID ADMIN", "").replace(";", ",").split(",") if x.strip().isdigit()}
+MESHTASTIC_HOST    = os.getenv("MESHTASTIC_HOST", "IP NODO MESHTASTIC").strip()
 MESHTASTIC_EXE     = os.getenv("MESHTASTIC_EXE", "meshtastic").strip()
 BROKER_HOST        = os.getenv("BROKER_HOST", "127.0.0.1").strip()
 BROKER_PORT        = int(os.getenv("BROKER_PORT", "8765"))
